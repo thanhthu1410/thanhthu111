@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+.HeaderContainer{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: bisque;
+    align-items: center;
+    .NavRight a{
+        margin-left: 50px;
+        text-decoration: none;
+    }
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
